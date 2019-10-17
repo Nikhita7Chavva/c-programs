@@ -1,27 +1,27 @@
 #include<stdio.h>
 int main()
 {
-int row,col,space,n;
+int r,c,s,n;
 printf("enter no.of rows");
-for(row=1;row<=n;row++)
+for(r=1;r<=n;r++)
 {
 
-for(col=n;col>=row;col--)
+for(c=n;c>=r;c--)
 {
-printf("*");
+printf("+");
 }
-for(space=2;space<=row;space++)
+for(s=2;s<=r;s++)
 {
-printf("");
+printf(" ");
 }
-for(space=2;space<=row;space++)
+for(s=2;s<=r;s++)
 {
-printf("");
+printf(" ");
 }
 
-for(col=n;col>=row;col--)
+for(c=n;c>=r;c--)
 {
-printf("*");
+printf("+");
 }
 printf("\n");
 }
